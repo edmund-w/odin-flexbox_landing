@@ -60,10 +60,10 @@ body {
     height: 100px;
     padding: 0 200px 50px;
 }
-.header h1 {
+h1 > a {
     font-size: 24px;
     color: #F9FAF8;
-    align-items: center;
+    text-decoration: none;
 }
 .header ul {
     list-style: none;
@@ -90,7 +90,7 @@ ul a:hover {
     height: 150px;
 }
 .container-one {
-    color: white;
+    color: #E5E7EB;
 }
 .container-one a {
     color: inherit;
@@ -113,4 +113,35 @@ ul a:hover {
     border-radius: 12px;
     padding: 8px 24px;
     border: 0;
+}
+
+.content-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 200px 50px;
+    column-gap: 48px;
+}
+.content-one h3 {
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 50px 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.content-one img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+.container-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
 }
