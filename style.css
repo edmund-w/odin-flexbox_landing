@@ -58,7 +58,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    padding: 0 200px 50px;
+    padding: 0 300px 50px;
 }
 h1 > a {
     font-size: 24px;
@@ -83,7 +83,7 @@ ul a:hover {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 0 200px 100px;
+    padding: 0 300px 100px;
 }
 .content-zero img {
     width: 500px;
@@ -127,7 +127,6 @@ ul a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
     padding: 50px 0;
     font-size: 36px;
     font-weight: 900;
@@ -163,4 +162,31 @@ ul a:hover {
     font-size: 20px;
     font-weight: 900;
     padding-right: 24px;
+}
+
+.content-three {
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px 350px;
+    padding: 50px 150px;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+.content-three button {
+    background-color: transparent;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 8px 24px;
+    font-weight: 900;
+}
+.container-three {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    gap: 8px;
+}
+.container-three p:first-of-type {
+    font-weight: 900;
+    font-size: 18px;
 }
