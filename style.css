@@ -190,3 +190,12 @@ ul a:hover {
     font-weight: 900;
     font-size: 18px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 50px 0;
+}
